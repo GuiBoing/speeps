@@ -1,0 +1,71 @@
+
+body {
+  color: #fff;
+padding-top: 55px;
+background-image: url("../imagens/bgpeixe.jpg");
+  background-repeat: repeat;
+}
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 110px;
+  }
+}
+
+.card {
+  height: 100%;
+}
+.card-body{
+  color: #000000;
+}
+.jumbotron{
+  color: #000000;
+}
+.bg-dark {
+  background-color: rgba(23, 152, 167, 0.71) !important;
+}
+
+.btn-ifc {
+  color: #fff;
+  background-color: #00a77e;
+  border-color: transparent;
+  border: transparent 0px;
+}
+.btn-ifc:hover {
+  color: #fff;
+  background-color: #079673;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.admin-menu {
+  background: #333;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  padding: 0 ;
+  list-style: none;
+
+}
+
+ul li a {
+  display: block;
+  padding: 10px 10px;
+
+  color: #b8c7ce;
+  font-size: 12px;
+}
+ul li a:hover {
+  text-decoration: none;
+  background: #1d1c1c;
+  color: #b8c7ce;
+}
